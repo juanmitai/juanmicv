@@ -310,13 +310,29 @@ body.loading {
     animation: bar-load 2s infinite alternate;
 }
 
-.bar:nth-child(1) { width: 100%; animation-delay: 0s; }
-.bar:nth-child(2) { width: 70%; animation-delay: 0.2s; }
-.bar:nth-child(3) { width: 85%; animation-delay: 0.4s; }
+.bar:nth-child(1) {
+    width: 100%;
+    animation-delay: 0s;
+}
+
+.bar:nth-child(2) {
+    width: 70%;
+    animation-delay: 0.2s;
+}
+
+.bar:nth-child(3) {
+    width: 85%;
+    animation-delay: 0.4s;
+}
 
 @keyframes bar-load {
-    0% { opacity: 0.2; }
-    100% { opacity: 0.6; }
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
 }
 
 
